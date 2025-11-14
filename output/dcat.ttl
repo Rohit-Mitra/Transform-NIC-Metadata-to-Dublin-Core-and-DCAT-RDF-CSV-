@@ -1,0 +1,38 @@
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://data.gov.in/resource/kisan-call-centre-kcc-transcripts-farmers-queries-answers> a dcat:Dataset ;
+    dcterms:accrualPeriodicity <http://purl.org/cld/freq/daily> ;
+    dcterms:description "District wise and month wise queries of farmers in Kisan Call Centre (KCC) " ;
+    dcterms:issued "2024-07-12"^^xsd:date ;
+    dcterms:modified "2025-06-27"^^xsd:date ;
+    dcterms:publisher "Ministry of Agriculture and Farmers Welfare;Department of Agriculture and Farmers Welfare" ;
+    dcterms:title "Kisan Call Centre (KCC) - Transcripts of farmers queries & answers" ;
+    dcat:distribution <https://data.gov.in/resource/kisan-call-centre-kcc-transcripts-farmers-queries-answers/distribution/api> ;
+    dcat:landingPage <https://data.gov.in/resource/kisan-call-centre-kcc-transcripts-farmers-queries-answers> ;
+    dcat:theme "Agriculture" .
+
+<https://data.gov.in/resource/kisan-call-centre-kcc-transcripts-farmers-queries-answers/distribution/api> a dcat:Distribution ;
+    dcterms:format "text/json" ;
+    dcat:accessURL <https://api.data.gov.in/resource/cef25fe2-9231-4128-8aec-2c948fedd43f?api-key=***&offset=0&limit=all&format=csv> ;
+    dcat:mediaType "text/json" .
+
+<https://data.gov.in/resource/variety-wise-daily-market-prices-data-commodity> a dcat:Dataset ;
+    dcterms:accrualPeriodicity <http://purl.org/cld/freq/daily> ;
+    dcterms:description "Current daily price of various commodities from various markets (Mandi)" ;
+    dcterms:issued "2024-06-02"^^xsd:date ;
+    dcterms:modified "2025-06-27"^^xsd:date ;
+    dcterms:publisher "Ministry of Agriculture and Farmers Welfare;Department of Agriculture and Farmers Welfare;Directorate of Marketing and Inspection (DMI)" ;
+    dcterms:title "Variety-wise Daily Market Prices Data of Commodity" ;
+    dcat:distribution <https://data.gov.in/resource/variety-wise-daily-market-prices-data-commodity/distribution/api> ;
+    dcat:landingPage <https://data.gov.in/resource/variety-wise-daily-market-prices-data-commodity> ;
+    dcat:theme "Agricultural Marketing",
+        "Agriculture" .
+
+<https://data.gov.in/resource/variety-wise-daily-market-prices-data-commodity/distribution/api> a dcat:Distribution ;
+    dcterms:format "text/csv" ;
+    dcat:accessURL <https://api.data.gov.in/resource/35985678-0d79-46b4-9ed6-6f13308a1d24?api-key=***&offset=0&limit=all&format=csv> ;
+    dcat:byteSize 1464 ;
+    dcat:mediaType "text/csv" .
+

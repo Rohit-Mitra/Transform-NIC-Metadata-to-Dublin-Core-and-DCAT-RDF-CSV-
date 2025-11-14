@@ -1,0 +1,25 @@
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://data.gov.in/resource/kisan-call-centre-kcc-transcripts-farmers-queries-answers> dcterms:accrualPeriodicity <http://purl.org/cld/freq/daily> ;
+    dcterms:created "2024-07-12"^^xsd:date ;
+    dcterms:description "District wise and month wise queries of farmers in Kisan Call Centre (KCC) " ;
+    dcterms:issued "2024-07-12"^^xsd:date ;
+    dcterms:modified "2025-06-27"^^xsd:date ;
+    dcterms:publisher "Ministry of Agriculture and Farmers Welfare;Department of Agriculture and Farmers Welfare" ;
+    dcterms:subject "Agriculture" ;
+    dcterms:title "Kisan Call Centre (KCC) - Transcripts of farmers queries & answers" ;
+    dcat:landingPage <https://data.gov.in/resource/kisan-call-centre-kcc-transcripts-farmers-queries-answers> .
+
+<https://data.gov.in/resource/variety-wise-daily-market-prices-data-commodity> dcterms:accrualPeriodicity <http://purl.org/cld/freq/daily> ;
+    dcterms:created "2024-05-21"^^xsd:date ;
+    dcterms:description "Current daily price of various commodities from various markets (Mandi)" ;
+    dcterms:issued "2024-06-02"^^xsd:date ;
+    dcterms:modified "2025-06-27"^^xsd:date ;
+    dcterms:publisher "Ministry of Agriculture and Farmers Welfare;Department of Agriculture and Farmers Welfare;Directorate of Marketing and Inspection (DMI)" ;
+    dcterms:subject "Agricultural Marketing",
+        "Agriculture" ;
+    dcterms:title "Variety-wise Daily Market Prices Data of Commodity" ;
+    dcat:landingPage <https://data.gov.in/resource/variety-wise-daily-market-prices-data-commodity> .
+
